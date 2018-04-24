@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="601859981">
+	<Platform GUID="{ABFEF36D-B1F8-44D6-9D7F-9D289D3894F0}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="GearsAndBlood_SBank" Hash="3435715877" Timestamp="1524580913"/>
+				<File Name="Init" Hash="1144778063" Timestamp="1524580913"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="60849280" Timestamp="1524580913"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{32FBAB76-5B6B-4C1B-A666-B0917122FAF0}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="GearsAndBlood_SBank" Hash="3435715877" Timestamp="1524580913"/>
+				<File Name="Init" Hash="2202935048" Timestamp="1524580913"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1990228946" Timestamp="1524580913"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

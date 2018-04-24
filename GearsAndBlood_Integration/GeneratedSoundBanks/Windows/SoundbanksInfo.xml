@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>/Users/JJKaufman/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/integration_git/GearsAndBlood_Integration/</ProjectRoot>
+		<SourceFilesRoot>/Users/JJKaufman/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/integration_git/GearsAndBlood_Integration/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/JJKaufman/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/integration_git/GearsAndBlood_Integration/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/JJKaufman/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/integration_git/GearsAndBlood_Integration/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1550658702" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\GearsAndBlood_SBank</ObjectPath>
+			<ShortName>GearsAndBlood_SBank</ShortName>
+			<Path>GearsAndBlood_SBank.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
