@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7E46AECF-8B76-4048-A578-B255009572DB}" SchemaVersion="85">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{7E46AECF-8B76-4048-A578-B255009572DB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7E46AECF-8B76-4048-A578-B255009572DB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SFX_Death_Drone" ID="{C2D42707-A9A6-48EA-8431-581E9CB8C1E1}">
+					<ChildrenList>
+						<Action Name="" ID="{A5116B84-C5F5-4F30-BCC3-AF1A3DC4B5F0}" ShortID="165162335">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone_Death" ID="{514DD860-10FB-441B-B4CB-F5AB2C0C675A}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
