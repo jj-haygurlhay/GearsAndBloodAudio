@@ -1,6 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DA788901-7544-4E58-83AF-DBE139BE313F}" SchemaVersion="85">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{DA788901-7544-4E58-83AF-DBE139BE313F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DA788901-7544-4E58-83AF-DBE139BE313F}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Drone_Death" ID="{EA34DE20-2C13-4333-ADB8-E56AD5A1D18F}" ShortID="159882775">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Spatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance Volume Attenuation" ID="{9AE03BD5-EDEC-4AB7-9D08-41236DFC38A2}" WorkUnitID="{2BD8C94C-A11F-4D6E-82B1-38DCF92DFAAE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Drone_Death" ID="{514DD860-10FB-441B-B4CB-F5AB2C0C675A}" ShortID="604118709">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{888104F2-2766-477C-935A-60B1AE07CD4A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D3FFBD6E-5C21-4666-94A2-CE4B247D8C4E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Drone_Death_01" ID="{97C21ECA-C3DE-4F39-A73C-694B686FDFCE}" ShortID="697254612">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Drone_Death_01" ID="{E2B46BC3-4895-4E6B-AA48-A0F367B469C7}" ShortID="154791594">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Drone_Death_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Drone_Death_01" ID="{E2B46BC3-4895-4E6B-AA48-A0F367B469C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Drone_Death_02" ID="{167EADC0-A078-41AF-9D68-08BC0408B5F2}" ShortID="584220754">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Drone_Death_02" ID="{7FDC910F-FE13-42A5-B787-2C4055D24685}" ShortID="961838023">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Drone_Death_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Drone_Death_02" ID="{7FDC910F-FE13-42A5-B787-2C4055D24685}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Drone_Death_03" ID="{66D30D85-3E96-40E7-A742-C9F689A1FD83}" ShortID="492233645">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Drone_Death_03" ID="{E0898449-F2D6-4EBB-AABC-D73920621F3F}" ShortID="165595826">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Drone_Death_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Drone_Death_03" ID="{E0898449-F2D6-4EBB-AABC-D73920621F3F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
