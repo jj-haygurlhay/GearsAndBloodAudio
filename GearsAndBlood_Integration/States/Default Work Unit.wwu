@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EDAF3918-B3F3-4B0D-97AB-A78D2CD92A26}" SchemaVersion="85">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{EDAF3918-B3F3-4B0D-97AB-A78D2CD92A26}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EDAF3918-B3F3-4B0D-97AB-A78D2CD92A26}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerLife" ID="{846908ED-1D2C-42D3-8E50-D300A6967F59}">
+					<ChildrenList>
+						<State Name="None" ID="{B209052B-7BDA-4AD3-AFBD-A6AD7E793F54}"/>
+						<State Name="Alive" ID="{48CD6706-89BF-40A5-A11C-75F313274CA6}"/>
+						<State Name="Dead" ID="{DE31A4EB-94DD-4684-BA7A-C781DC5F64D3}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Game" ID="{8566C157-93BB-4BE4-BED1-897B65A833D8}">
+					<ChildrenList>
+						<State Name="None" ID="{E598A468-97AC-499A-8AD0-EDD4F92980F6}"/>
+						<State Name="Gameplay" ID="{2D3D2FE5-0699-46CD-A4A5-00CC68646B78}"/>
+						<State Name="Menu" ID="{4CA19F8A-9B6B-4F40-9249-B6976B50532B}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

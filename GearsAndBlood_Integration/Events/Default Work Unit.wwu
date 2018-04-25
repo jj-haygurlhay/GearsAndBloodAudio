@@ -17,6 +17,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MUS_START" ID="{5A79772B-6E32-4AD0-A6FF-2A4E8CF82F54}">
+					<ChildrenList>
+						<Action Name="" ID="{AFEE23DA-99E6-4C42-9D01-252A987669B3}" ShortID="363972971">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{C2D33733-D54A-4201-AFE4-1C798A17833E}" WorkUnitID="{E656328C-351C-4EE2-8060-F2CB0C158F00}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MUS_STOP" ID="{6DB1479F-939A-4E8E-B02F-F9DDF37DD8C5}">
+					<ChildrenList>
+						<Action Name="" ID="{74559512-172A-46C6-9822-3D472B1C6A9C}" ShortID="46433645">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{C2D33733-D54A-4201-AFE4-1C798A17833E}" WorkUnitID="{E656328C-351C-4EE2-8060-F2CB0C158F00}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
