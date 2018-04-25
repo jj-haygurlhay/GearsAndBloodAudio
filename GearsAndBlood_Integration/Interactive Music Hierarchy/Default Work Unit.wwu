@@ -1492,7 +1492,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -2566,6 +2565,9 @@
 												<AudioFileSource Name="MUS_Combat_4-4_100bpm" ID="{F510BA2B-B652-4A11-A721-70F9E0A59172}" ShortID="892181261">
 													<Language>SFX</Language>
 													<AudioFile>MUS_Combat_4-4_100bpm.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="247178174"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
