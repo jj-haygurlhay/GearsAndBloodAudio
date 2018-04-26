@@ -4,12 +4,12 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="GearsAndBlood_SBank" Hash="3435715877" Timestamp="1524580913"/>
-				<File Name="Init" Hash="1144778063" Timestamp="1524580913"/>
+				<File Name="Init" Hash="216505133" Timestamp="1524756217"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="60849280" Timestamp="1524582210"/>
+				<File Name="" Hash="60849280" Timestamp="1524756217"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -17,12 +17,12 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="GearsAndBlood_SBank" Hash="3435715877" Timestamp="1524580913"/>
-				<File Name="Init" Hash="2202935048" Timestamp="1524580913"/>
+				<File Name="Init" Hash="518401802" Timestamp="1524756217"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1990228946" Timestamp="1524582210"/>
+				<File Name="" Hash="1990228946" Timestamp="1524756217"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

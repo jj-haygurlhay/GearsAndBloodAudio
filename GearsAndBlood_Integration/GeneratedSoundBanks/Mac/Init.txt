@@ -1,3 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	702482391	Game			\Default Work Unit\Game	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	2044049779	Dead	PlayerLife			
+	89505537	Gameplay	Game			
+	748895195	None	Game			
+	2607556080	Menu	Game			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	
