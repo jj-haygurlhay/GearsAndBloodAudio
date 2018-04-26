@@ -45,6 +45,131 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Flamer" ID="{B9F8DD7F-0A33-44C4-A1F8-CAED67F09FF2}" ShortID="1056310701">
+					<ChildrenList>
+						<Event Name="SFX_Flamer_Death" ID="{C6736749-168F-43D5-BE3B-1D292F08AFD3}">
+							<ChildrenList>
+								<Action Name="" ID="{D91D5AD9-D787-451A-A450-6C0B0375037A}" ShortID="833264511">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Flamer_Death" ID="{761F369A-30B8-4500-9B37-25241A60316D}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABL_Flamer_Taunt" ID="{B87F0965-A72A-4222-94CC-8F2B3247058E}">
+							<ChildrenList>
+								<Action Name="" ID="{FCE3F43C-70C4-43D0-B287-EAE118E2A37D}" ShortID="533661654">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Flamer_Taunt" ID="{FC863F67-6CCF-4E65-A577-3B5654A0D377}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ranger" ID="{20D1A7B6-36EE-4ADA-BB4A-7A7C3342AD61}" ShortID="132788791">
+					<ChildrenList>
+						<Event Name="SFX_Ranger_Death" ID="{9063AF79-7E0D-4AEA-92A9-B24FCAC3C611}">
+							<ChildrenList>
+								<Action Name="" ID="{F36A41E1-9D4A-40EE-A9EB-043EC6195375}" ShortID="977403266">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Ranger_Death" ID="{865103C4-DE00-4CA2-B700-EF79D92F0221}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Sniper" ID="{17254115-9D5D-46F4-ACD1-F9FEDC3D2922}" ShortID="774829821">
+					<ChildrenList>
+						<Event Name="SFX_Sniper_Death" ID="{A53679A5-438B-403C-A2CB-57B92C46B36A}">
+							<ChildrenList>
+								<Action Name="" ID="{72400010-E823-42FC-B253-EC689897A7E7}" ShortID="394003549">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Sniper_Death" ID="{1E087FF2-8D1F-43D1-80B1-D8E1A817E352}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Digger" ID="{2B8DD1F4-DA68-475E-A360-76CDC15A81AD}" ShortID="696979347">
+					<ChildrenList>
+						<Event Name="SFX_Digger_Death" ID="{6064D331-D26A-4EBA-96AF-9DE9A98BA6E2}"/>
+						<Event Name="ABL_Digger_Drill" ID="{7C062AC4-15E1-49A7-A649-BCD6EDD19F75}">
+							<ChildrenList>
+								<Action Name="" ID="{FA804768-F4A4-42EC-9F0E-D014798AECD3}" ShortID="123589710">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Digger_Drill" ID="{9764166E-5049-46C6-8F47-F98B7B6BFE8A}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABL_Digger_DrillBurrow" ID="{BE69CC29-9F35-4C54-9FB6-C0CB16B44CE3}">
+							<ChildrenList>
+								<Action Name="" ID="{6ECEAE5B-8C1D-48B5-A8C1-A5C65AAF198E}" ShortID="362839815">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Digger_DrillBurrow" ID="{0A00144D-86F0-4921-A5BA-B0112E7FC4FF}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABLE_Digger_Exit" ID="{BC7719E8-F1F4-4426-8969-65D8E0134660}">
+							<ChildrenList>
+								<Action Name="" ID="{03E8918B-AEDE-402C-BFB2-D6B5088CF038}" ShortID="273388106">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Digger_DrillBurrow" ID="{BE69CC29-9F35-4C54-9FB6-C0CB16B44CE3}" WorkUnitID="{7E46AECF-8B76-4048-A578-B255009572DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D9E83629-F7F3-4962-9969-10AC63920FD3}" ShortID="274985846">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Digger_Exit" ID="{36E58170-E2AE-467D-92ED-988EB43E3F61}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
