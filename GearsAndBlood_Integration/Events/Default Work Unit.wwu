@@ -170,6 +170,293 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Drone" ID="{4BDE9568-A183-408C-AAD9-24022120175C}" ShortID="893480397">
+					<ChildrenList>
+						<Event Name="ABL_Drone_Melee" ID="{66B6F244-196F-4EEC-9B50-24F7DEE8532B}">
+							<ChildrenList>
+								<Action Name="" ID="{76A8F42E-D3D5-4CA0-A646-B9497FAFE8D2}" ShortID="182582060">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Drone_Melee" ID="{DC2F9825-5FA1-4C25-A5BC-D070D9BFEE45}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABL_Destructible_Explosive_Barrel" ID="{A978851E-227C-40B3-B0E6-A1D489A00994}">
+							<ChildrenList>
+								<Action Name="" ID="{A7FE10BD-BF8D-4AA9-80F9-F1B6112DD2F0}" ShortID="352655730">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Destructible_Explosive_Barrel" ID="{56CC0BE5-0F17-4B0A-B8A3-FDB3A661A9CE}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Drone_Death" ID="{67B2CD62-FA53-445E-B84C-8753881F57BC}">
+							<ChildrenList>
+								<Action Name="" ID="{783D3D73-B499-45D8-884C-B218E1E52381}" ShortID="314688173">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Drone_Death" ID="{AFA097AC-FEB2-44CE-9322-0E9733BF9003}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Drone_Unburrow" ID="{E2C19727-BEEE-4EF2-AE24-F17264BE2937}">
+							<ChildrenList>
+								<Action Name="" ID="{54234166-8D40-4B20-B29A-DF6BA7562999}" ShortID="587646455">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Drone_Unburrow" ID="{41F561A4-8143-49F5-B5DA-6EA4CDF0EC1D}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Drone_Alert" ID="{641046E5-3430-4DD7-B856-A9D06143EC01}">
+							<ChildrenList>
+								<Action Name="" ID="{152990B8-B0C2-421D-A230-0E3580335654}" ShortID="454715666">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Drone_Alert" ID="{9CEF0CA6-115F-4B4D-B5C0-D7908AEF6DF2}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{600A2E17-8D22-43F5-A9A5-A577FD962CD8}" ShortID="1070603951">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Combat" ID="{838FE01B-71C0-412C-B963-4A188EB15F5C}" WorkUnitID="{93A6CC69-CDF9-42BA-84ED-E065E341514D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Drone_Language" ID="{5DEB43CA-64A3-4F89-9581-0B25B2178776}">
+							<ChildrenList>
+								<Action Name="" ID="{1A11AB80-4622-4FA9-A1DD-60C0095E44D2}" ShortID="441500561">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Drone_Language" ID="{FEC159DA-6698-4038-AD5B-7CA4ABE7F518}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Titan" ID="{59F69C6A-59AA-4BF5-9500-3C8A33A928E0}" ShortID="385943147">
+					<ChildrenList>
+						<Event Name="ABL_Titan_Laser" ID="{1693178D-6C6A-4F3C-B0DA-92B55ADDA8F5}">
+							<ChildrenList>
+								<Action Name="" ID="{3F33EE68-EF9A-465A-B938-AED109239927}" ShortID="104862349">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Titan_Laser" ID="{02F96895-8701-4BA6-B2E0-9610CC66A5E7}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABL_Titan_Burrow" ID="{DCC872E9-D521-43C8-A978-37F636EDE40C}">
+							<ChildrenList>
+								<Action Name="" ID="{E7D46ED7-E46F-4223-8444-AA8195C2C55E}" ShortID="650945510">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Titan_Burrow" ID="{F86C11BC-ECCE-4312-A257-B4032C760F94}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABL_Titan_Unburrow" ID="{CC0F6196-6F9F-49FE-9E81-4BDC722225B9}">
+							<ChildrenList>
+								<Action Name="" ID="{106605D5-4707-472B-816E-98E034340222}" ShortID="95740824">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Titan_Burrow" ID="{DCC872E9-D521-43C8-A978-37F636EDE40C}" WorkUnitID="{7E46AECF-8B76-4048-A578-B255009572DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DEF97E09-FD94-42BC-9A17-DA98D8DEBB24}" ShortID="746373520">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Titan_Unburrow" ID="{49474E56-48E6-41EC-8D9C-86B8FE6B9C80}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABL_Titan_DeployMine" ID="{9EF59F74-5E87-4FD5-AF70-2F3C587C250C}">
+							<ChildrenList>
+								<Action Name="" ID="{5FA9DCA1-D4E3-4652-8663-4B3CA12359E4}" ShortID="476637259">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Titan_DeployMine" ID="{E8322534-CE6E-4B9F-9120-EBF9D3BE65FF}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABL_Titan_SpawnDrone" ID="{15B0767D-9C3B-4A11-8F26-AF821F8B33EB}">
+							<ChildrenList>
+								<Action Name="" ID="{5BD17DB1-23B5-48B5-B2BE-9CFA7D9C5FF0}" ShortID="635048344">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Titan_SpawnDrone" ID="{5A287EBF-F330-428B-812E-5A0D6061103C}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1A4E3FB7-7266-4140-9949-C0BD30AE253C}" ShortID="81058881">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Drone_Language" ID="{FEC159DA-6698-4038-AD5B-7CA4ABE7F518}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Titan_Footstep" ID="{73493F99-7809-43F5-A045-A46EBA84DE44}">
+							<ChildrenList>
+								<Action Name="" ID="{9910FA8C-DDDB-4481-81F2-053A554F52B0}" ShortID="792763428">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS" ID="{F7773D56-E7A7-4E73-B3A2-0EFAC5F222DD}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Titan_Alert" ID="{1DEA6C20-58B6-4CD4-8825-E3FC9FC31FDB}">
+							<ChildrenList>
+								<Action Name="" ID="{D3A0F836-E7AB-4A10-BA6B-3E024E4D9BE0}" ShortID="681441448">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Titan_Alert" ID="{181D053C-0E90-42DB-8130-FD90BC662001}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3BFDD527-B199-4EBE-AB08-7724E5F49333}" ShortID="149310817">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Combat" ID="{838FE01B-71C0-412C-B963-4A188EB15F5C}" WorkUnitID="{93A6CC69-CDF9-42BA-84ED-E065E341514D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Mines" ID="{C7319626-6545-4560-A30C-C2EA9618B41E}" ShortID="469601016">
+					<ChildrenList>
+						<Event Name="ABL_Mine_DeployMine" ID="{1FEE6081-7CDC-4A78-A55A-203B50DA2508}">
+							<ChildrenList>
+								<Action Name="" ID="{3023F7F9-A2CC-4771-9472-F4CF01361AB9}" ShortID="611480023">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DeployMine" ID="{0DD50F04-4D4D-45CF-850C-2F34A1DBD9FE}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABL_Mine_MineTrigger" ID="{5C21047F-23E0-4A8C-81A2-90A82840A0E2}">
+							<ChildrenList>
+								<Action Name="" ID="{D8B778A2-1EB3-40D3-8C8A-5F37A45BC07A}" ShortID="881327240">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trigger" ID="{5A3CE866-0874-4F64-A2BB-FB8B416F40E4}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABL_Mine_MineDetonation" ID="{ADBDE5B1-3EE0-4187-BCF1-3545DE18FCAE}">
+							<ChildrenList>
+								<Action Name="" ID="{1C001A0C-6271-46D9-A584-D4A53069BE74}" ShortID="297000225">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ABL_Mine_MineTrigger" ID="{5C21047F-23E0-4A8C-81A2-90A82840A0E2}" WorkUnitID="{7E46AECF-8B76-4048-A578-B255009572DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1061451F-BCF1-48EE-A988-7DDE5CA52D15}" ShortID="16566775">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MineDetonation" ID="{5F1B12AE-7538-40C3-880C-5A157C349642}" WorkUnitID="{DA788901-7544-4E58-83AF-DBE139BE313F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

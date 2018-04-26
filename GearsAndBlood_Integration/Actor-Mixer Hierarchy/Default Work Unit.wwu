@@ -2348,108 +2348,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="ABL_Digger_Drill" ID="{9764166E-5049-46C6-8F47-F98B7B6BFE8A}" ShortID="674852290">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{FC892B14-6332-455A-9986-7FB76FA19F28}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="100"/>
-															<Property Name="Min" Type="Real64" Value="-100"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{15B4DF6B-AAAA-4218-B3A0-879EE5B856F4}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="2"/>
-															<Property Name="Min" Type="Real64" Value="-2"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="ABL_Digger_Drill_01" ID="{66FAB2EE-A344-43DA-8548-321BC9FBB3EB}" ShortID="141088953">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="ABL_Digger_Drill_01" ID="{E5E4D06B-4BAB-465F-9DE7-211FD3815806}" ShortID="810002640">
-													<Language>SFX</Language>
-													<AudioFile>ABL_Digger_Drill_01.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="ABL_Digger_Drill_01" ID="{E5E4D06B-4BAB-465F-9DE7-211FD3815806}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="ABL_Digger_Drill_02" ID="{C448F8D7-130B-4CA4-942F-E040679C5D38}" ShortID="176884505">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="ABL_Digger_Drill_02" ID="{51C8834D-2720-4B2C-86D1-5B653153A4E6}" ShortID="197954366">
-													<Language>SFX</Language>
-													<AudioFile>ABL_Digger_Drill_02.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="ABL_Digger_Drill_02" ID="{51C8834D-2720-4B2C-86D1-5B653153A4E6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="ABL_Digger_Drill_03" ID="{855B91A7-9A44-4C71-9BA5-D5BE0EECBF68}" ShortID="773187576">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="ABL_Digger_Drill_03" ID="{3036AC31-09E0-46BC-889E-2E736FDE4AB0}" ShortID="943440110">
-													<Language>SFX</Language>
-													<AudioFile>ABL_Digger_Drill_03.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="ABL_Digger_Drill_03" ID="{3036AC31-09E0-46BC-889E-2E736FDE4AB0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<ActorMixer Name="Drill_BurrowExit" ID="{AF49F9EF-34D7-4BD1-B857-C14F14C8EA15}" ShortID="551853282">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2662,6 +2560,2092 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
+								<ActorMixer Name="Digger_Drill" ID="{4C561DFA-B04E-45E1-9299-ED978EB1E772}" ShortID="1056156858">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="ABL_Digger_Drill" ID="{9764166E-5049-46C6-8F47-F98B7B6BFE8A}" ShortID="674852290">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{FC892B14-6332-455A-9986-7FB76FA19F28}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{15B4DF6B-AAAA-4218-B3A0-879EE5B856F4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ABL_Digger_Drill_01" ID="{66FAB2EE-A344-43DA-8548-321BC9FBB3EB}" ShortID="141088953">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABL_Digger_Drill_01" ID="{E5E4D06B-4BAB-465F-9DE7-211FD3815806}" ShortID="810002640">
+															<Language>SFX</Language>
+															<AudioFile>ABL_Digger_Drill_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABL_Digger_Drill_01" ID="{E5E4D06B-4BAB-465F-9DE7-211FD3815806}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABL_Digger_Drill_02" ID="{C448F8D7-130B-4CA4-942F-E040679C5D38}" ShortID="176884505">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABL_Digger_Drill_02" ID="{51C8834D-2720-4B2C-86D1-5B653153A4E6}" ShortID="197954366">
+															<Language>SFX</Language>
+															<AudioFile>ABL_Digger_Drill_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABL_Digger_Drill_02" ID="{51C8834D-2720-4B2C-86D1-5B653153A4E6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABL_Digger_Drill_03" ID="{855B91A7-9A44-4C71-9BA5-D5BE0EECBF68}" ShortID="773187576">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABL_Digger_Drill_03" ID="{3036AC31-09E0-46BC-889E-2E736FDE4AB0}" ShortID="943440110">
+															<Language>SFX</Language>
+															<AudioFile>ABL_Digger_Drill_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABL_Digger_Drill_03" ID="{3036AC31-09E0-46BC-889E-2E736FDE4AB0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Drone" ID="{81F42F7C-EF13-44F1-8255-9418AA9C72CA}" ShortID="331864120">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Drone_Melee" ID="{E07D3D16-C9BC-4D99-A330-86D0BA619165}" ShortID="410731623">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="ABL_Drone_Melee" ID="{DC2F9825-5FA1-4C25-A5BC-D070D9BFEE45}" ShortID="958508800">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FF06E6F6-13ED-4C69-A198-227FD6312FCD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5A14460D-6853-4AFC-AD65-6512A95A2A82}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Drone_Melee_01" ID="{C4BFD240-4085-49FC-A522-83D04592C2D6}" ShortID="980113273">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Drone_Melee_01" ID="{9C7B0024-AA59-407E-A8E6-6F765FCC2A51}" ShortID="878223571">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Drone_Melee_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Drone_Melee_01" ID="{9C7B0024-AA59-407E-A8E6-6F765FCC2A51}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Drone_Melee_02" ID="{CE2ED785-BB73-40F0-9DC2-8B454810AEEC}" ShortID="322369154">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Drone_Melee_02" ID="{A1D12173-A021-413A-8969-FAB70DED697B}" ShortID="996305191">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Drone_Melee_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Drone_Melee_02" ID="{A1D12173-A021-413A-8969-FAB70DED697B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Drone_Melee_03" ID="{A7909241-9D52-405C-AF3D-D54ED4955422}" ShortID="41279865">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Drone_Melee_03" ID="{09A0EC4D-572D-4A8D-9403-E947666285C1}" ShortID="530871797">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Drone_Melee_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Drone_Melee_03" ID="{09A0EC4D-572D-4A8D-9403-E947666285C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Explosive_Barrel" ID="{E7CAF9B4-1896-4939-B4D6-9E0D96938DD7}" ShortID="791165978">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="ABL_Destructible_Explosive_Barrel" ID="{56CC0BE5-0F17-4B0A-B8A3-FDB3A661A9CE}" ShortID="327316927">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9AFB6A88-1BAD-438A-9514-DD937D330731}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F1824AAA-DDE7-4B73-AD87-CCE744516C79}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Destructible_Explosive_Barrel_01" ID="{6EBC2C33-FBCE-4069-975A-B7122CECBF59}" ShortID="96513458">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Destructible_Explosive_Barrel_01" ID="{BFA06DEA-B55A-4616-B201-9AAE64200453}" ShortID="246679030">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Destructible_Explosive_Barrel_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Destructible_Explosive_Barrel_01" ID="{BFA06DEA-B55A-4616-B201-9AAE64200453}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Destructible_Explosive_Barrel_02" ID="{2EC55BD9-A8FC-44F9-9A00-7D19ED61BFA6}" ShortID="1069491785">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Destructible_Explosive_Barrel_02" ID="{BF0CB0D6-D4F4-48CC-BDD6-4194C17A2DDF}" ShortID="12688722">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Destructible_Explosive_Barrel_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Destructible_Explosive_Barrel_02" ID="{BF0CB0D6-D4F4-48CC-BDD6-4194C17A2DDF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Destructible_Explosive_Barrel_03" ID="{CD287273-F3FA-44E3-BC7C-1052AB9DCBA8}" ShortID="387673998">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Destructible_Explosive_Barrel_03" ID="{9968F663-DD19-442C-A1CA-4997D17C7E01}" ShortID="1069548310">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Destructible_Explosive_Barrel_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Destructible_Explosive_Barrel_03" ID="{9968F663-DD19-442C-A1CA-4997D17C7E01}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Death" ID="{09DD6CC1-A453-4C41-BC34-A42E566709D9}" ShortID="15592731">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_Drone_Death" ID="{AFA097AC-FEB2-44CE-9322-0E9733BF9003}" ShortID="70991456">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{958033CE-5179-4DAA-B506-EA3EB59C06CD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B8FEE367-2A7D-416F-AB39-0C7B36D8D8C0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Drone_Death_01" ID="{8620A4DE-A39D-4098-9BDA-0E2AA35EA6E3}" ShortID="46810413">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Death_01" ID="{1C00F999-62A5-4E66-90B5-C336E1811AE3}" ShortID="1002015086">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Death_01.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="154791594"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Death_01" ID="{1C00F999-62A5-4E66-90B5-C336E1811AE3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Drone_Death_02" ID="{B4833EF7-9372-4A09-99F8-9E9ECC0AD1FD}" ShortID="223631152">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Death_02" ID="{D9BCD162-0F6E-4909-AAEC-26D897B0FA26}" ShortID="250221983">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Death_02.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="961838023"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Death_02" ID="{D9BCD162-0F6E-4909-AAEC-26D897B0FA26}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Drone_Death_03" ID="{869C353D-97A9-4049-B5C2-479D7C3031B1}" ShortID="238459572">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Death_03" ID="{5DB19ACA-B135-4E48-9E4B-A48A9CAEF37D}" ShortID="355708862">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Death_03.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="165595826"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Death_03" ID="{5DB19ACA-B135-4E48-9E4B-A48A9CAEF37D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Unburrow" ID="{D78A71DC-D857-4917-A60B-8E62A1E95AAC}" ShortID="22915143">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_Drone_Unburrow" ID="{41F561A4-8143-49F5-B5DA-6EA4CDF0EC1D}" ShortID="574700891">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AB2AF6CA-37C3-41E9-8523-5597066063CB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3B999171-C953-4F13-A3F8-6652A83C056D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Drone_Unborrow_01" ID="{CAE48B27-A1ED-46A8-A1D0-505901107246}" ShortID="822049861">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Unborrow_01" ID="{93D6F3C1-9BFF-43BC-80D2-8696D31D943E}" ShortID="959343918">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Unborrow_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Unborrow_01" ID="{93D6F3C1-9BFF-43BC-80D2-8696D31D943E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Drone_Unborrow_02" ID="{E68E8E9F-18B7-4781-B88A-5EEEB4407CE8}" ShortID="230070813">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Unborrow_02" ID="{24F8F09C-EBA3-4E01-A38B-F1FD506BC987}" ShortID="12091547">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Unborrow_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Unborrow_02" ID="{24F8F09C-EBA3-4E01-A38B-F1FD506BC987}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Drone_Unborrow_03" ID="{9E6F8E5E-B9B1-49CF-B592-6178FC10F41D}" ShortID="481552320">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Unborrow_03" ID="{13290ACB-FAC3-442A-9802-8794E6DA85DB}" ShortID="710209389">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Unborrow_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Unborrow_03" ID="{13290ACB-FAC3-442A-9802-8794E6DA85DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Drone_Alert" ID="{C941F5DE-F03F-4496-A5E5-6A0CB4E1B950}" ShortID="415691442">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_Drone_Alert" ID="{9CEF0CA6-115F-4B4D-B5C0-D7908AEF6DF2}" ShortID="498869055">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C0AF0600-115C-419C-BBA0-C83171DFF6B7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FF9BBB2A-ADDE-4F6F-80C5-CC77819463F0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Drone_Alert_01" ID="{7FFE42DB-DA28-4305-9E8E-F879E4E6B4FD}" ShortID="943646281">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Alert_01" ID="{B07BEF96-D158-4573-AD25-90B2C9382EFD}" ShortID="922222882">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Alert_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Alert_01" ID="{B07BEF96-D158-4573-AD25-90B2C9382EFD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Drone_Alert_02" ID="{CEAD5539-22D2-470D-9E4F-650175172B79}" ShortID="1052493328">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Alert_02" ID="{1DDF9D7B-57D8-4D95-99E8-6CE22783383D}" ShortID="89564253">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Alert_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Alert_02" ID="{1DDF9D7B-57D8-4D95-99E8-6CE22783383D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Drone_Alert_03" ID="{3D82C860-DFF1-4CE2-8F13-F1A6A725303A}" ShortID="780794211">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Alert_03" ID="{28BADE07-726E-4A60-94AD-D4C8C198680A}" ShortID="1665380">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Alert_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Alert_03" ID="{28BADE07-726E-4A60-94AD-D4C8C198680A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Language" ID="{D85D071A-96E9-43EC-B363-95ABE55B8DAA}" ShortID="168565209">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_Drone_Language" ID="{FEC159DA-6698-4038-AD5B-7CA4ABE7F518}" ShortID="570177561">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9E63B631-1FFA-4089-BFDD-D3D6842B702D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8A27E80C-7B73-4908-A5CF-40C4D7CF2D59}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Drone_Langage_01" ID="{09E5CF19-F2A3-4F5F-AE3A-1403F50DC101}" ShortID="451261344">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Langage_01" ID="{5D383045-F38F-4CE2-BFD4-A7750CEE2270}" ShortID="746752849">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Langage_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Langage_01" ID="{5D383045-F38F-4CE2-BFD4-A7750CEE2270}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Drone_Langage_02" ID="{6F8B4F32-E9A6-4069-A28F-DC11C018F31E}" ShortID="1009165613">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Langage_02" ID="{177EB436-3D56-4422-9644-2F70000DC475}" ShortID="391339390">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Langage_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Langage_02" ID="{177EB436-3D56-4422-9644-2F70000DC475}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Drone_Langage_03" ID="{6D763F27-639C-43C9-9B3E-21092B5F197A}" ShortID="827968794">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Drone_Langage_03" ID="{78C209B2-4CBA-4F01-BD13-E1516D0B9B04}" ShortID="592985029">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Drone_Langage_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Drone_Langage_03" ID="{78C209B2-4CBA-4F01-BD13-E1516D0B9B04}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Titan" ID="{0EBFA08A-A6EE-4D29-965C-68E404249B67}" ShortID="269745548">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Laser" ID="{3187ED70-FE19-4D0F-B55A-748FCB2C80E0}" ShortID="73140121">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="ABL_Titan_Laser" ID="{02F96895-8701-4BA6-B2E0-9610CC66A5E7}" ShortID="730968621">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{54CDFA87-B0B2-4102-A574-F49727E765B0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2484DBA4-0181-4B96-AD4A-524B10C7C709}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Titan_Laser_01" ID="{4FAAA45B-1544-49B0-A547-D1B8A0C8F4A0}" ShortID="248212445">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_Laser_01" ID="{A45FF1EE-F073-4DB2-8DFF-A3E62C979E6E}" ShortID="79846203">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_Laser_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_Laser_01" ID="{A45FF1EE-F073-4DB2-8DFF-A3E62C979E6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_Laser_02" ID="{D9E563B5-ED12-4527-B2D9-8E6E42206698}" ShortID="388988768">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_Laser_02" ID="{B2D73629-DE61-4B2B-A302-27DF24D552F3}" ShortID="395602784">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_Laser_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_Laser_02" ID="{B2D73629-DE61-4B2B-A302-27DF24D552F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_Laser_03" ID="{5BA36DB5-C9F7-455C-9C46-DF23251105C5}" ShortID="809490763">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_Laser_03" ID="{9329F471-370A-48DE-9FB6-6F44002D2F56}" ShortID="905496625">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_Laser_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_Laser_03" ID="{9329F471-370A-48DE-9FB6-6F44002D2F56}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Burrow" ID="{F8D8EB0C-DE68-4907-B4AA-06A8028F599D}" ShortID="584749926">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Titan_Burrow" ID="{F86C11BC-ECCE-4312-A257-B4032C760F94}" ShortID="598837970">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{22C21462-1900-4436-B595-C4DA6B0739C8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4FB4B9A5-D2DD-45F9-B00F-1B90AFAA0DCC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Titan_Burrow_01" ID="{B3FC639B-8D83-4525-B052-BE4175D67B76}" ShortID="184045044">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_Burrow_01" ID="{1B285DAF-E80F-4AE4-B3A9-25C02C81B611}" ShortID="771072777">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_Burrow_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_Burrow_01" ID="{1B285DAF-E80F-4AE4-B3A9-25C02C81B611}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_Burrow_02" ID="{9E0E7CDA-28CB-4066-B4F0-DF01A91DC080}" ShortID="388807947">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_Burrow_02" ID="{875DA750-D123-48C4-86DD-255599228D05}" ShortID="933962395">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_Burrow_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_Burrow_02" ID="{875DA750-D123-48C4-86DD-255599228D05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_Burrow_03" ID="{A990940A-300D-4B7A-A8CF-8867C51008B4}" ShortID="784476592">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_Burrow_03" ID="{9C23081F-FFC2-4417-8098-1E4C126CA1AA}" ShortID="33148913">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_Burrow_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_Burrow_03" ID="{9C23081F-FFC2-4417-8098-1E4C126CA1AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="DeployMine" ID="{7B49F5FC-7EC9-4537-B326-E670A0AE463A}" ShortID="999107531">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Titan_DeployMine" ID="{E8322534-CE6E-4B9F-9120-EBF9D3BE65FF}" ShortID="566999515">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AA33CDEC-FB0F-48B8-952E-D2890744A4BD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8B17147C-AA9C-4A2E-A7D1-1FE4DD4D8417}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Titan_DeployMine_01" ID="{F84507ED-6F65-4168-BAC4-A03042B8657D}" ShortID="975864368">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_DeployMine_01" ID="{A9B6E248-A21C-42D0-B75B-82ECFEDAA779}" ShortID="858864629">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_DeployMine_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_DeployMine_01" ID="{A9B6E248-A21C-42D0-B75B-82ECFEDAA779}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_DeployMine_02" ID="{0DB9C3EA-076A-4801-9881-A844D85A4273}" ShortID="559956589">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_DeployMine_02" ID="{D656ECC0-1E6F-4DC5-893F-3D2ED9443E7A}" ShortID="266098338">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_DeployMine_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_DeployMine_02" ID="{D656ECC0-1E6F-4DC5-893F-3D2ED9443E7A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_DeployMine_03" ID="{20FCD85F-5FCF-46D6-9E9D-A4A6206FE057}" ShortID="32253909">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_DeployMine_03" ID="{E27C42F1-FF05-47E5-9573-4B9341A68AE3}" ShortID="313581823">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_DeployMine_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_DeployMine_03" ID="{E27C42F1-FF05-47E5-9573-4B9341A68AE3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_DeployMine_04" ID="{11A62B33-19A2-455F-9471-B9560C81C516}" ShortID="846471380">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_DeployMine_04" ID="{4F35BE45-26C6-4C5F-87E4-AA319778A4B3}" ShortID="406028364">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_DeployMine_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_DeployMine_04" ID="{4F35BE45-26C6-4C5F-87E4-AA319778A4B3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Unburrow" ID="{2D74F898-9EA4-4D38-9C22-BCD652CEC711}" ShortID="472184802">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{14F7BA64-F285-4457-B474-1B0618039245}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Titan_Unburrow" ID="{49474E56-48E6-41EC-8D9C-86B8FE6B9C80}" ShortID="85480082">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-200</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D87E2E8A-14A1-4423-AC8D-10EEB5BDD628}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Titan_Unburrow_01" ID="{9620A3AD-4E13-4D85-A125-93C2F5481070}" ShortID="360203324">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_Unburrow_01" ID="{C4D4AB6E-1AC6-4AF9-AB12-385B68921B03}" ShortID="701640662">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_Unburrow_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_Unburrow_01" ID="{C4D4AB6E-1AC6-4AF9-AB12-385B68921B03}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_Unburrow_02" ID="{C14FD890-DC7E-416E-B631-91BC1115B1D9}" ShortID="269660320">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_Unburrow_02" ID="{7D0ABA54-B7C4-4AE0-A805-99B469AB0C14}" ShortID="969289516">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_Unburrow_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_Unburrow_02" ID="{7D0ABA54-B7C4-4AE0-A805-99B469AB0C14}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_Unburrow_03" ID="{3C55BDE8-FB60-447D-9AA6-65BA3BDC22F5}" ShortID="837480020">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_Unburrow_03" ID="{A139C222-3C95-4388-B1E8-A225E242C3C4}" ShortID="770946251">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_Unburrow_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_Unburrow_03" ID="{A139C222-3C95-4388-B1E8-A225E242C3C4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="SpawnDrone" ID="{E331BE96-A95F-418A-8571-8D99302CD615}" ShortID="972210258">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Titan_SpawnDrone" ID="{5A287EBF-F330-428B-812E-5A0D6061103C}" ShortID="93895101">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6C78763E-C201-447E-B2A5-6C48218BC77A}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3684F43B-7C52-47F9-8AD5-98B8A84AF6FA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Titan_SpawnDrone_01" ID="{268A32A6-1A96-414E-B97A-128677C78A2C}" ShortID="716606012">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_SpawnDrone_01" ID="{D898D7C0-D532-46B8-AD22-8AAC41038738}" ShortID="478022142">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_SpawnDrone_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_SpawnDrone_01" ID="{D898D7C0-D532-46B8-AD22-8AAC41038738}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_SpawnDrone_02" ID="{2F4768D8-FF02-4A5F-B2C5-D7D04B879075}" ShortID="848472712">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_SpawnDrone_02" ID="{7A283BA7-7414-439C-9025-7637CA0BBE47}" ShortID="788049013">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_SpawnDrone_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_SpawnDrone_02" ID="{7A283BA7-7414-439C-9025-7637CA0BBE47}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Titan_SpawnDrone_03" ID="{5D069123-71CD-4F41-B349-62FFD2053E9A}" ShortID="211379110">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Titan_SpawnDrone_03" ID="{C34E8545-38C9-4214-8D0B-CF1DC32A376E}" ShortID="324580107">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Titan_SpawnDrone_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Titan_SpawnDrone_03" ID="{C34E8545-38C9-4214-8D0B-CF1DC32A376E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="FS" ID="{4E58B295-F648-4E67-933C-BE44021E9568}" ShortID="937175790">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="FS" ID="{F7773D56-E7A7-4E73-B3A2-0EFAC5F222DD}" ShortID="623569103">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D73A4A66-DADF-4249-BD4A-A26C163A9721}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BDA962AC-3E69-4391-8C2F-F60503054F96}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Titan_Footstep_01" ID="{6CFC6D25-E7CC-4C97-9916-799B29ADACEC}" ShortID="414100158">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Titan_Footstep_01" ID="{12FA07FC-EBE5-42AB-8B11-C961F840A9A3}" ShortID="26783113">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Titan_Footstep_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Titan_Footstep_01" ID="{12FA07FC-EBE5-42AB-8B11-C961F840A9A3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Titan_Footstep_02" ID="{D309BF72-ED82-49BC-8768-CE4D1C433C31}" ShortID="191241997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Titan_Footstep_02" ID="{0F43147B-C1AD-4180-96A3-F7C748D0619F}" ShortID="293584360">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Titan_Footstep_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Titan_Footstep_02" ID="{0F43147B-C1AD-4180-96A3-F7C748D0619F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Titan_Footstep_03" ID="{7C28E5AE-017D-4EAB-B685-C660A7761486}" ShortID="166291010">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Titan_Footstep_03" ID="{6387948B-0EB4-4FC7-BA47-760D7CA86D6C}" ShortID="24545505">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Titan_Footstep_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Titan_Footstep_03" ID="{6387948B-0EB4-4FC7-BA47-760D7CA86D6C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Titan_Footstep_04" ID="{E28F4A8F-380D-4436-9A99-F6A17796541D}" ShortID="970581309">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Titan_Footstep_04" ID="{74B1A3DC-6FE9-4122-B8FE-24EF32176FB1}" ShortID="809117792">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Titan_Footstep_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Titan_Footstep_04" ID="{74B1A3DC-6FE9-4122-B8FE-24EF32176FB1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Titan_Footstep_05" ID="{CDD17CBF-D884-4078-8A08-995488A59131}" ShortID="222452862">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Titan_Footstep_05" ID="{0195F659-94D7-44A0-9121-862544D9DA43}" ShortID="964411988">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Titan_Footstep_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Titan_Footstep_05" ID="{0195F659-94D7-44A0-9121-862544D9DA43}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Titan_Footstep_06" ID="{980F5A90-DDD5-4129-9246-CC2DB23C9843}" ShortID="296639349">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Titan_Footstep_06" ID="{955A674C-834C-4093-9A56-2CBE260C9079}" ShortID="694733803">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Titan_Footstep_06.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Titan_Footstep_06" ID="{955A674C-834C-4093-9A56-2CBE260C9079}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Alert" ID="{6F98D9E9-10EF-4D95-AD48-E355CC108254}" ShortID="155777834">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Titan_Alert" ID="{181D053C-0E90-42DB-8130-FD90BC662001}" ShortID="772256769">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{23A31F55-3609-4A73-9090-FB215C4A2ACF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8461653D-F8E1-4629-A2C1-13A64A80535E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Titan_Alert_01" ID="{300E6F45-14FC-486F-AC0D-AB5FA1ACAE04}" ShortID="336876488">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Titan_Alert_01" ID="{1A2FDE31-2D9B-48AA-BD07-B0BB5B4F50DA}" ShortID="1040110622">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Titan_Alert_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Titan_Alert_01" ID="{1A2FDE31-2D9B-48AA-BD07-B0BB5B4F50DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Titan_Alert_02" ID="{1148E6FC-B196-4E65-AF18-26A3C6B0A25F}" ShortID="304434875">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Titan_Alert_02" ID="{F35F084B-5C33-406F-BF25-E46C8EBEAF80}" ShortID="476567642">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Titan_Alert_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Titan_Alert_02" ID="{F35F084B-5C33-406F-BF25-E46C8EBEAF80}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Titan_Alert_03" ID="{5C0FE971-0B42-48E3-8EE0-E1C07BAEA444}" ShortID="117827151">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Titan_Alert_03" ID="{397F840B-58F7-4DB0-BEFC-39D609AE1F31}" ShortID="90475486">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Titan_Alert_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Titan_Alert_03" ID="{397F840B-58F7-4DB0-BEFC-39D609AE1F31}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Mines" ID="{AD9FC3D1-45E2-45E4-94F2-F25DC644A8D8}" ShortID="522450368">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Deploy" ID="{B4258D20-6DFC-4BA3-A834-ADBB2A51C462}" ShortID="241382463">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="DeployMine" ID="{0DD50F04-4D4D-45CF-850C-2F34A1DBD9FE}" ShortID="669478262">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>1800</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DD5C8890-AA2F-44FE-B0FC-A0E88DBD7DD6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4F560524-4474-4490-92AA-A0A260ABAF83}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Mine_DeployMine_01" ID="{77E9500A-B1ED-4BB3-9BF3-9C2EFD507EBC}" ShortID="985132803">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_DeployMine_01" ID="{EC1CDD1B-710D-4D68-B44F-F8A23D9D7833}" ShortID="900692205">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_DeployMine_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_DeployMine_01" ID="{EC1CDD1B-710D-4D68-B44F-F8A23D9D7833}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Mine_DeployMine_02" ID="{A6E05747-019C-4180-AD82-728FAF8E1564}" ShortID="813188481">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_DeployMine_02" ID="{B8D3BD83-6574-4D43-89AE-795D01D917F2}" ShortID="703020611">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_DeployMine_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_DeployMine_02" ID="{B8D3BD83-6574-4D43-89AE-795D01D917F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Mine_DeployMine_03" ID="{258143E2-D249-48FC-B65B-AEC107F5CEEB}" ShortID="224951771">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_DeployMine_03" ID="{39DB6046-9751-4E6B-9070-DFED932A264C}" ShortID="1069050672">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_DeployMine_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_DeployMine_03" ID="{39DB6046-9751-4E6B-9070-DFED932A264C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Mine_DeployMine_04" ID="{D80C1CEC-E5C1-4E99-B7BF-A04C84D13333}" ShortID="86084761">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_DeployMine_04" ID="{200E65B6-74CC-4319-9BFC-94A9F28DE723}" ShortID="660105399">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_DeployMine_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_DeployMine_04" ID="{200E65B6-74CC-4319-9BFC-94A9F28DE723}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Trigger" ID="{9A6E8365-D738-457C-9405-1AFBCEDB21D5}" ShortID="579313388">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Trigger" ID="{5A3CE866-0874-4F64-A2BB-FB8B416F40E4}" ShortID="603510422">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C284D358-1C20-4C51-ACDA-AE399CBDBA6B}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Mine_MineTrigger01" ID="{33AF7950-86EE-4983-94A2-A49C09371DB9}" ShortID="773526029">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_MineTrigger01" ID="{7CFE54CE-D284-4DE6-BF1C-C2AA14629FA2}" ShortID="350436413">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_MineTrigger01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_MineTrigger01" ID="{7CFE54CE-D284-4DE6-BF1C-C2AA14629FA2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Mine_MineTrigger02" ID="{0AB784E3-73A3-4359-A225-21D57B057DC4}" ShortID="1039851398">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_MineTrigger02" ID="{340ACEFA-6EFD-4997-9245-4CB5797D73BB}" ShortID="386603558">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_MineTrigger02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_MineTrigger02" ID="{340ACEFA-6EFD-4997-9245-4CB5797D73BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Mine_MineTrigger03" ID="{1FB19077-6FB2-44D5-811A-969E98B99564}" ShortID="802068137">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_MineTrigger03" ID="{80BE2BBA-6A4C-4F6B-A499-79593A4DDFA1}" ShortID="520788079">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_MineTrigger03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_MineTrigger03" ID="{80BE2BBA-6A4C-4F6B-A499-79593A4DDFA1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Mine_MineTrigger04" ID="{3E0C0332-D3CD-42C0-BF1A-9E027C587ED1}" ShortID="676484071">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_MineTrigger04" ID="{8CF30238-2EF1-4229-BF5B-FFF6DC83E1F3}" ShortID="521053313">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_MineTrigger04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_MineTrigger04" ID="{8CF30238-2EF1-4229-BF5B-FFF6DC83E1F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Detonation" ID="{7701611D-ED2F-40B4-848B-27A49F4040F8}" ShortID="590176083">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="MineDetonation" ID="{5F1B12AE-7538-40C3-880C-5A157C349642}" ShortID="1003613429">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7617D637-D31C-4759-8D61-CCE1AB53AC80}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F88FF248-D45E-4481-BF1C-8170C1CEA6D4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ABL_Mine_MineDetonation01" ID="{FD8EC3C0-C890-43C6-8C9F-1ABA6BA31A00}" ShortID="733851152">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_MineDetonation01" ID="{B2D14147-10D4-469E-A873-4800EC0F0594}" ShortID="558090367">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_MineDetonation01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_MineDetonation01" ID="{B2D14147-10D4-469E-A873-4800EC0F0594}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Mine_MineDetonation02" ID="{5C13032E-5811-49AA-B8CA-C7C9BBCEB781}" ShortID="332818121">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_MineDetonation02" ID="{5EEF6AAF-FA35-40D2-9C0E-7A564497189F}" ShortID="782573870">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_MineDetonation02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_MineDetonation02" ID="{5EEF6AAF-FA35-40D2-9C0E-7A564497189F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Mine_MineDetonation03" ID="{AE7402D9-83CA-413C-A63A-340873AE1662}" ShortID="793852297">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_MineDetonation03" ID="{77DCBCCB-DE31-45AB-95D9-1F4D9B10EF96}" ShortID="581379591">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_MineDetonation03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_MineDetonation03" ID="{77DCBCCB-DE31-45AB-95D9-1F4D9B10EF96}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ABL_Mine_MineDetonation04" ID="{8CC67C76-3699-4930-BB14-D9C5CB800958}" ShortID="607364712">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01B0D9BC-381B-420E-AD15-CA04261E124B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ABL_Mine_MineDetonation04" ID="{F5716093-2F59-4BEF-A0D2-B61C227421F3}" ShortID="29964794">
+													<Language>SFX</Language>
+													<AudioFile>ABL_Mine_MineDetonation04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ABL_Mine_MineDetonation04" ID="{F5716093-2F59-4BEF-A0D2-B61C227421F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
